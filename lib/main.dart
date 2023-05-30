@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Responsi',
       home: HomePage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
